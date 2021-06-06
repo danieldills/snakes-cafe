@@ -14,3 +14,5 @@ A command line utility which will mimic the functionality of a point of sale res
 - The program’s content should match included sample exactly
 - Actually, there’s one tiny spot that should be different - see if you can spot it.
 - The > character represents user input line and should be printed out with a trailing space.
+
+Collaborations & Attributions: Prabin Singh and TA Anthony for the assistance with debugging.
