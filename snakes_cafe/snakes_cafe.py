@@ -1,9 +1,9 @@
-print("**************************************")
-print("**    Welcome to the Snakes Cafe!   **")
-print("**    Please see our menu below.    **")
-print("**                                  **")
-print("** To quit at any time, type 'quit' **")
-print("**************************************")
+print("*" * 38)
+print("""**    Welcome to the Snakes Cafe!   **
+**    Please see our menu below.    **
+**                                  **
+** To quit at any time, type 'quit' **""")
+print("*" * 38)
 
 print(
   """
@@ -39,12 +39,8 @@ order = input(">")
 
 myOrder = {}
 while order != "quit":
-  num = 1
   if order not in myOrder:
     myOrder[order] = 0
   myOrder[order] += 1
-  print(order)
-  # myOrder.update({order: + 1})
-  print(myOrder[order])
   print(f"** {myOrder[order]} order of {order} have been added to your meal **")
   order = input(">")
