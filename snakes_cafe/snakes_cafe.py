@@ -37,10 +37,10 @@ print(
 print("** What would you like to order? **")
 order = input(">")
 
-myOrder = {}
+my_order = {}
 while order != "quit":
-  if order not in myOrder:
-    myOrder[order] = 0
-  myOrder[order] += 1
-  print(f"** {myOrder[order]} order of {order} have been added to your meal **")
+  if order not in my_order:
+    my_order[order] = 0
+  my_order[order] += 1
+  print(f"** {my_order[order]} order of {order} have been added to your meal **")
   order = input(">")
